@@ -27,6 +27,9 @@ def print_number(number):
     odd numbers are always weird, while even numbers are weird
     only if they fall within the range 6-20.
     
+    
+    Time Complexity: O(1)
+    Time Complexity: O(1)
     """
     odd = number % 2 == 1 
     weird_range = not odd and 6 <= number <= 20
