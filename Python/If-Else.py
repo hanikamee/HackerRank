@@ -29,7 +29,7 @@ def print_number(number):
     
     
     Time Complexity: O(1)
-    Time Complexity: O(1)
+    Space Complexity: O(1)
     """
     odd = number % 2 == 1 
     weird_range = not odd and 6 <= number <= 20
