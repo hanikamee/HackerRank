@@ -22,4 +22,3 @@ def square_number(number: int) -> list [int]:
 if __name__ == '__main__':
     number: int = int(input())
     print(*square_number(number), sep = '\n')
-    
