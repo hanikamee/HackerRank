@@ -8,6 +8,7 @@ integers less than n (i.e., 0 to n-1).
 Input: Single integer n (0 ≤ n ≤ 20)
 Output: n lines, each containing the square of the corresponding index
 """
+
 def square_number(number: int) -> list [int]:
     """ 
     Generate squares of all numbers from 0 to number-1.
