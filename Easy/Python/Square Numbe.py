@@ -12,6 +12,9 @@ Output: n lines, each containing the square of the corresponding index
 def square_number(number: int) -> list [int]:
     """ 
     Generate squares of all numbers from 0 to number-1.
+    
+    Time Complexity: O(n)
+    Space Complexity: O(n)
     """
     
     squared_list = []
