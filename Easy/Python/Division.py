@@ -12,13 +12,14 @@ Space Complexity: O(1)
 """
 
 
-def divide(first_number, second_number) -> tuple [int , float]:
+def divide(first_number, second_number) -> tuple[int, float]:
     integer_number: int = first_number // second_number
-    float_number: float  = first_number / second_number
-    
+    float_number: float = first_number / second_number
+
     return integer_number, float_number
+
 
 if __name__ == '__main__':
     first_number = int(input())
     second_number = int(input())
-    print(*divide(first_number, second_number), sep = '\n') 
+    print(*divide(first_number, second_number), sep='\n')
