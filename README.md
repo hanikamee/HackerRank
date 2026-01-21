@@ -1,6 +1,6 @@
 # HackerRank Solutions
 
-My journey to becoming a Python programmer. This repository contains my solutions to HackerRank problems, focusing on clean, optimized code.
+My journey to becoming an Engineer. This repository contains my solutions to HackerRank problems, focusing on clean, optimized code.
 
 ## 🎯 Goals
 
