@@ -5,7 +5,7 @@ Difficulty: Easy
 Problem: Count how many times a substring occurs in a string.
 String traversal is left to right, case-sensitive.
 
-Input: 
+Input:
 - Line 1: Original string
 - Line 2: Substring to search for
 

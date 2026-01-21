@@ -21,7 +21,7 @@ Examples:
 """
 
 
-def solve(passport_name):
+def solve(passport_name: str) -> str:
     """
     Capitalize the first character of each word while preserving spacing.
 
@@ -46,7 +46,7 @@ def solve(passport_name):
         - Result list grows linearly with input size
         - Final string is also O(n)
     """
-    capitalized_name = []
+    capitalized_name: list = []
 
     for i, char in enumerate(passport_name):
         # Check if this is the start of a word
