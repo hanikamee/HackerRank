@@ -11,7 +11,7 @@ Space Complexity: O(n) for the split list and result string
 """
 
 
-def split_and_join(line):
+def split_and_join(line: str) -> str:
     """
     Replace spaces with hyphens in a string.
 
