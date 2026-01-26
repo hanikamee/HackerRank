@@ -20,7 +20,15 @@ def return_day(month, day, year):
     weekday_num = calendar.weekday(year, month, day)
 
     # Map weekday number to day name
-    days = ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"]
+    days = [
+        "MONDAY",
+        "TUESDAY",
+        "WEDNESDAY",
+        "THURSDAY",
+        "FRIDAY",
+        "SATURDAY",
+        "SUNDAY",
+    ]
     weekday_name = days[weekday_num]
 
     return weekday_name
@@ -33,5 +41,5 @@ def main():
     print(result)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
